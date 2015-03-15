@@ -15,13 +15,15 @@ Requirements:
 * A legal copy of the game
 * A MinGW/MSYS installation (with make) in PATH
 * An up-to-date installation of Mono in PATH
+
 To build and install the mod, run **build.bat**.
 
-### Linux
-#### !UNTESTED!
-Requirements
+### Linux - Untested
+
+Requirements:
 * A legal copy of the game
 * An up-to-date installation of Mono
+
 To build and install the mod, run **./build.sh**.
 
 ## Binaries
@@ -42,4 +44,4 @@ To build and install the mod, run **./build.sh**.
 * Better error handling in package manager
 
 ## License
-See LICENSE.txt.
+See [LICENSE.txt](LICENSE.txt).
