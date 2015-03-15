@@ -23,7 +23,6 @@ $(BINARY_PATH): $(SOURCES)
 	mkdir -p $(DIR_BINARY)
 	mcs -debug /out:"$(BINARY_PATH)" /target:library /lib:"$(DIR_GAME)" $(DEPENDENCY_LIST) $(SOURCES)
 
-# Warning: Depends on Windows and %localappdata%
 DIR_ADDON := $(DIR_GAME_LOCAL)/Addons/Mods/$(PROJECT)
 BINARY_INSTALL_PATH := $(DIR_ADDON)/$(BINARY_NAME)
 
